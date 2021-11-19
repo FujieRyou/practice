@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@a2aacc8b1458bdc02a2a67a5048c31a922cfedf1/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-marker preset="hiro">
+        <a-entity obj-model = "obj:url(obj/12221_Cat_v1_l3.obj) mlt:url(obj/12221_Cat_v1_l3.mtl)" 
+        scale="0.02 0.02 0.02"
+        rotation="-90 0 0">
+        </a-entity>
+        <a-text value="Cat AR by J" position="0 0.8 0"></a-text>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>
+-->
+
+
+<html>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<!-- we import arjs version without NFT but with marker + location based support -->
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+<body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+    <a-marker preset="hiro">
+        <a-entity
+        obj-model="obj:url"
+        >
+    </a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.accordion{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.accordion__header{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.accordion__click{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.accordion__btn{
+    border: solid 1px black;
+    background: gray;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transform-origin: center center;
+    transform: translateX(-10px);
+    cursor: pointer;
+    transition: .6s;
+}
+
+
+.accordion__btn:visited{
+    background: gray;
+    cursor: pointer;
+    transform-origin: center center;
+    transform: translateX(-10px);
+}
+
+
+.accordion__plus{
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: .6s;
+}
+
+.vertical{
+    transform: rotate(90deg);
+    transition: .6s;
+}
+
+.color{
+    background-color: skyblue;
+    transition: .6s;
+}
+
+.accordion__content{
+    width: 100%;
+    height: 150px;
+    border: solid 1px black;
+    overflow: hidden;
+    transition: .6s;
+}
+
+.AC__height{
+    height: 0;
+    transition: .6s;
+}

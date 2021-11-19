@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.navi{
+    width: 100%;
+    height: 90px;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navi div{
+    height: 100%;
+    padding: 0 100px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navi__menu:active{
+    background-color: #C0C0C0;
+}
+
+.main__1{
+    width: 100%;
+    height: 120%;
+    background: skyblue;
+}
+
+.main__2{
+    width: 100%;
+    height: 120%;
+    background: tomato;
+}
+
+.main__3{
+    width: 100%;
+    height: 120%;
+    background: khaki;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: solid 1px black;
+    transition: 1s;
+}
+
+.box__2{
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: solid 1px black;
+    transition: 1s;
+    margin-top: 20px;
+    transform:translate(-300px,0px) ;
+}
+
+/* #circle{
+    width: 300px;
+    height: 300px;
+    transition: .5s;
+}
+
+@keyframes gurade {
+    0%{fill: skyblue;}
+    25%{fill: tomato;}
+    50%{fill: violet;}
+    75%{fill: yellowgreen;}
+    100%{fill: skyblue;}
+}
+
+#circle{
+    animation-name: gurade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes str {
+    from{stroke-dashoffset: 400;}
+    50%{stroke-dashoffset: 0; fill-opacity: 0;}
+    to{fill-opacity: 1; stroke-dashoffset: 0;}
+}
+
+.fujieRyou > path{
+    stroke-width: 0.5;
+    animation-name: str;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+    stroke: black;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    fill-opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

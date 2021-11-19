@@ -1,0 +1,10 @@
+.tomBrown{
+    width: 50%;
+    border: solid 1px black;
+    resize: horizontal;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.slide {
+    width: 600px;
+    height: 300px;
+    border: solid 1px black;
+	position:relative;
+	height:400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.slide__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.slide__img:first-child{
+    opacity: 1;
+}
+

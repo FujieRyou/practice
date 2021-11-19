@@ -1,0 +1,34 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* .tomBrown{
+    width: 50%;
+    border: solid 1px black;
+    resize: horizontal;
+    overflow: hidden;
+}
+.img{
+    background-image: url("../img/IMG_4675.jpeg");
+    width: 100%;
+    height: 100%;
+} */
+
+.tomBrown{
+    width: 800px;
+    height: 460px;
+    border: solid 1px black;
+}
+
+.img{
+    width: 750px;
+    height: 410px;
+    position: absolute;
+    /* user-select: none;
+    -moz-user-drag: none; */
+    background: url('../img/IMG_4675.jpeg');
+    resize: horizontal;
+    overflow: hidden;
+
+}
