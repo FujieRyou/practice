@@ -5,7 +5,7 @@ console.log(canvas);
 
 const context = canvas.getContext("2d");
 
-context.fillRect(10,10,100,50);
+context.fillRect(10,10,0,50);
 };
 // window.onload = function () {
 //   var canvas = document.getElementById('writeCanvas');
